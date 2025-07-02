@@ -27,7 +27,7 @@ const Header = () => {
           </Link>
 
           <Link href={"/manage-plan"}>
-            <Button className="bg-blue-600 hover:bg-blue-800 cursor-pointer">
+            <Button className="bg-blue-600 hover:bg-blue-700 cursor-pointer">
               Manage Plan
             </Button>
           </Link>
@@ -35,7 +35,7 @@ const Header = () => {
         </SignedIn>
         <SignedOut>
           <SignInButton mode="modal">
-            <Button className="bg-blue-600 hover:bg-blue-800 cursor-pointer">
+            <Button className="bg-blue-600 hover:bg-blue-700 cursor-pointer">
               Login
             </Button>
           </SignInButton>
